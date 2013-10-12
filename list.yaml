@@ -4,6 +4,8 @@
 # name - the project's name
 # github - the user/project part of the github location
 # license - the project's license (or lack of license), see license values below
+# syntax - the project's lightweight markup language (e.g. markdown, textile)
+# template - used templating system (e.g. django, twig)
 
 # We also accept the following fields if GitHub was not provided (as with github we auto-detect them)
 # website - the project's website if they have one
@@ -199,6 +201,8 @@
 - name: 'cub'
   github: 'patcoll/cub'
   license: 'MIT'
+  syntax: 'html'
+  template: 'twig'
 
 
 - name: 'cyrax'
@@ -338,6 +342,8 @@
 - name: 'Gen'
   github: 'trq/Gen'
   license: "MIT"
+  syntax: 'markdown'
+  template: 'twig'
 
 
 - name: 'glynn'
@@ -455,6 +461,8 @@
 - name: 'Hydrastic'
   github: 'bpizzi/Hydrastic'
   license: 'MIT'
+  syntax: 'markdown'
+  template: 'twig'
 
 
 - name: 'Hobix'
@@ -637,6 +645,8 @@
 - name: 'Miblo'
   github: 'rafalp/Miblo'
   license: 'BSD'
+  syntax: 'markdown'
+  template: 'twig'
 
 
 - name: 'misaki'
@@ -648,6 +658,8 @@
 - name: 'meinhof'
   github: 'miguelibero/meinhof'
   license: 'MIT'
+  syntax: 'markdown'
+  template: 'twig'
 
 
 - name: 'Middleman'
@@ -790,12 +802,16 @@
   website: 'http://phrozn.info'
   github: 'farazdagi/phrozn'
   license: 'Apache'
+  syntax: 'markdown', 'textile'
+  template: 'twig'
 
 
 - name: 'PieCrust'
   website: 'http://bolt80.com/piecrust/'
   github: 'ludovicchabant/piecrust'
   license: 'Apache'
+  syntax: 'markdown'
+  template: 'twig'
 
 
 - name: 'Pilcrow'
@@ -953,6 +969,8 @@
 - name: 'Site builder'
   github: 'inanimatt/site-builder'
   license: 'MIT'
+  syntax: 'markdown'
+  template: 'twig'
 
 
 - name: 'Site44'
@@ -965,6 +983,8 @@
   website: 'http://sculpin.io/'
   github: 'sculpin/sculpin'
   license: 'MIT'
+  syntax: 'markdown', 'textile'
+  template: 'twig'
 
 
 - name: 'Serve'
@@ -994,6 +1014,7 @@
 - name: 'SG'
   github: 'maxailloud/SG'
   license: 'Public'
+  template: 'twig'
 
 
 - name: 'simple-static'
@@ -1005,6 +1026,8 @@
   website: 'http://getsnowshoe.com/index.html'
   github: 'edvanbeinum/snowshoe'
   license: false
+  syntax: 'markdown'
+  template: 'twig'
 
 
 - name: 'Socrates'
