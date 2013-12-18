@@ -24,6 +24,7 @@
 # "Ruby" - use for all variations of the Ruby License
 # "EPL" - use for all variations of the Eclipse Public License
 # "CC" - use for all variations of the Creative Commons Licenses (except CC0, that should be Public)
+# "Beer-ware" - use for all variations of the Beer-ware License
 # "Commercial" - use for projects that are sold (shareware) or are closed-source
 # false - use when the license is not revelead
 #
@@ -40,22 +41,32 @@
 - name: 'Ace'
   github: 'botanicus/ace'
   license: 'MIT'
+  language: 'Ruby'
+  description: 'Ace is a powerful tool designed to easily generate even complex web sites.'
 
 
 - name: 'acrylamid'
   github: 'posativ/acrylamid'
   license: 'BSD'
+  language: 'Python'
+  description: 'Static blog generator in python with incremental rendering'
+  website: 'http://posativ.org/acrylamid/'
 
 
-- name: 'Apto'
-  github: 'modparadigm/apto'
-  license: 'MIT'
+#- name: 'Apto'
+#  github: 'modparadigm/apto'
+#  license: 'MIT'
+#  language: 'JavaScript'
+#  description: 'Apto is a easy to use, straight-forward static site generator / builder for Node.js.'
+# ^ returning a 404
 
 
 - name: 'assemble'
   website: 'http://assemble.io/'
   github: 'assemble/assemble'
   license: 'MIT'
+  language: 'JavaScript'
+  description: 'Static site generator for Grunt.js and Yeoman. Assemble makes it dead simple to build modular sites, blogs, gh-pages, components and documentation from reusable templates and data.'
 
 
 #- name: 'Automaton'
@@ -68,16 +79,20 @@
   website: 'http://awestruct.org/'
   github: 'awestruct/awestruct'
   license: 'MIT'
+  language: 'Ruby'
+  description: 'Awestruct is a framework for creating static HTML sites, inspired by the Jekyll utility in the same genre.'
 
 
 - name: 'baker'
   github: 'taylorchu/baker'
   license: 'GPL'
+  language: 'bash'
+  description: 'the real static blog generator in bash'
 
 
 - name: 'bashblog'
-  github: 'carlesfe/bashblog'
-  license: false
+  github: 'cfenollosa/bashblog'
+  license: 'GPL'
 
 
 - name: 'bazinga'
@@ -273,8 +288,14 @@
   website: 'http://engineer.readthedocs.org/en/latest/'
   github: 'tylerbutler/engineer'
   license: 'MIT'
-
-
+  
+- name: 'Equiprose'
+  website: 'http://equiprose.org'
+  github: 'http://github.com/thibaultCha/Equiprose'
+  language: 'JavaScript'
+  license: 'MIT'
+  description: 'Flexible and powerful static website and blog generator in Node.js'
+  
 - name: 'Fairytale'
   github: '46Bit/fairytale'
   license: 'MIT'
@@ -283,8 +304,12 @@
 - name: 'FantasticWindmill'
   website: 'http://sylvainhalle.github.io/FantasticWindmill/'
   github: 'sylvainhalle/FantasticWindmill'
-  license: false
+  license: 'GPL'
 
+- name: 'fBlog'
+  website: 'http://sourceforge.net/projects/fortranblog/'
+  licence: 'GPL'
+  language: 'fortran'
 
 - name: 'fjord'
   website: 'http://dkuntz2.github.io/fjord/'
@@ -314,7 +339,7 @@
 #- name: 'Fragments'
 #  github: 'glyphobet/fragments'
 #  license: 'BSD'
-# not a ssg  
+# not a ssg
 
 
 - name: 'Frank'
@@ -356,20 +381,35 @@
   license: 'MIT'
 
 
+- name: 'gor'
+  github: 'wendal/gor'
+  license: 'BSD'
+
+
 - name: 'gostatic'
   github: 'piranha/gostatic'
   license: 'ISC'
+  
+- name: 'Go-Static!'
+  github: 'colynb/generator-go-static'
+  license: 'MIT'
+  language: 'JavaScript'
+  description: 'Yeoman generator for static sites'
 
 
 - name: 'Gravity'
   github: 'owainlewis/gravity'
-  license: false
+  license: 'MIT'
 
 
 - name: 'Graze'
   github: 'mikoskinen/graze'
   license: 'MIT'
 
+- name: 'grender'
+  github: 'peterbourgon/grender'
+  license: 'BSD'
+  language: 'Go'
 
 - name: 'Growl'
   github: 'xfire/growl'
@@ -416,6 +456,12 @@
 - name: 'happyplan'
   website: 'http://happyplan.putaindecode.io/'
   github: 'happyplan/happyplan'
+  license: 'MIT'
+
+
+- name: 'haroopress'
+  website: 'http://haroopress.com'
+  github: 'rhiokim/haroopress'
   license: 'MIT'
 
 
@@ -493,8 +539,13 @@
   license: 'MIT'
 
 
+- name: 'Jedie'
+  github: 'mattn/jedie'
+  license: 'MIT'
+
+
 - name: 'Jekyll'
-  github: 'mojombo/jekyll'
+  github: 'jekyll/jekyll'
   license: 'MIT'
 
 
@@ -576,7 +627,7 @@
 
 - name: 'lightning'
   github: 'borismus/lightning'
-  license: false
+  license: 'MIT'
 
 
 - name: 'lilac'
@@ -601,6 +652,11 @@
 #  github: 'walmartlabs/lumbar'
 #  license: 'MIT'
 # not a ssg
+
+
+- name: 'm4-bakery'
+  github: 'datagrok/m4-bakery'
+  license: 'GPL'
 
 
 - name: 'Machined'
@@ -734,7 +790,7 @@
 
 - name: 'node-jekyll'
   github: 'wangbus/node-jekyll'
-  license: false
+  license: 'MIT'
 
 
 - name: 'noflo-jekyll'
@@ -754,7 +810,7 @@
 
 
 - name: 'Nikola'
-  website: 'http://nikola.ralsina.com.ar/'
+  website: 'http://getnikola.com/'
   github: 'getnikola/nikola'
   license: 'MIT'
 
@@ -822,7 +878,7 @@
 
 - name: 'Pith'
   github: 'mdub/pith'
-  license: false
+  license: 'MIT'
 
 
 - name: 'poet'
@@ -833,6 +889,7 @@
 - name: 'poole'
   website: 'https://bitbucket.org/obensonne/poole'
   github: 'obensonne/poole'
+  language: 'Python'
   license: 'Public'
 
 
@@ -870,7 +927,7 @@
 - name: 'Quill'
   website: 'https://npmjs.org/package/quill'
   github: 'theycallmeswift/quill'
-  license: false
+  license: 'Beer-ware'
 
 
 - name: 'RakeWeb'
@@ -893,7 +950,7 @@
 
 - name: 'Rizzo'
   github: 'fifthposition/rizzo'
-  license: false
+  license: 'MIT'
 
 
 - name: 'Rog'
@@ -938,7 +995,7 @@
 
 #- name: 'Scotch'
 #  github: 'techwraith/scotch'
-#  license: false
+#  license: 'MIT'
 # not a ssg
 
 
@@ -959,6 +1016,11 @@
   github: 'rubyworks/shelob'
   license: 'BSD'
 
+- name: 'Sitebox.io'
+  website: 'http://www.sitebox.io'
+  license: 'Commercial'
+  description: 'New and intuitive way to create websites with dropbox'
+  language: 'Web'
 
 - name: 'Site builder console'
   website: 'http://sitebuilder.codeplex.com/'
@@ -1054,6 +1116,14 @@
   license: 'MIT'
 
 
+- name: 'Stadø'
+  website: 'http://stadoproject.org/'
+  github: 'lecnim/stado'
+  license: 'MIT'
+  language: 'Python'
+  description: "Stado is a simple, single-file, static site generator, powered by python scripts."
+
+
 - name: 'Stasis'
   website: 'http://stasis.me/'
   github: 'winton/stasis'
@@ -1141,7 +1211,7 @@
 
 - name: 'Tempo'
   github: 'catnapgames/Tempo'
-  license: false
+  license: 'MIT'
 
 
 - name: 'toto'
@@ -1164,11 +1234,15 @@
   github: 'estrabd/vee'
   license: 'BSD'
 
-
 - name: 'vimwiki'
   github: 'vim-scripts/vimwiki'
   license: 'MIT'
 
+- name: 'VoodooPad'
+  website: 'https://plausible.coop/voodoopad/'
+  license: 'Commerical'
+  language: 'App'
+  description: 'MacOS/iOS application for editing notes. Has a static site publishing functionality extensible via JavaScript.'
 
 - name: 'Voldemort'
   github: 'semk/voldemort'
@@ -1220,12 +1294,6 @@
   defunct: true
 
 
-- name: 'Werc'
-  website: 'http://werc.cat-v.org/'
-  github: 'Knorkebrot/werc'
-  license: 'MIT'
-
-
 - name: 'Wheat'
   github: 'creationix/wheat'
   license: 'MIT'
@@ -1262,6 +1330,13 @@
 - name: 'yst'
   github: 'jgm/yst'
   license: 'GPL'
+
+
+- name: 'zas'
+  github: 'imdario/zas'
+  license: 'AGPL'
+  language: 'Go'
+  description: 'Most. Zen. Static. Website. Generator. Ever.'
 
 
 - name: 'ZenWeb'
